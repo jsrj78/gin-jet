@@ -2,7 +2,5 @@ package: github.com/ysitd-cloud/gin-jet
 import:
 - package: github.com/CloudyKit/jet
   version: ^2.1.1
-- package: gopkg.in/gin-gonic/gin.v1
-  version: ^1.2.0
 - package: github.com/fatih/structs
   version: ^1.0.0

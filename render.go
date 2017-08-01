@@ -3,20 +3,19 @@ package jet
 import (
 	"github.com/CloudyKit/jet"
 	"github.com/fatih/structs"
-	"gopkg.in/gin-gonic/gin.v1/render"
 )
 
 type JetRender struct {
 	Set *jet.Set
 }
 
-func NewJetRender(set *jet.Set) render.HTMLRender {
+func NewJetRender(set *jet.Set) *JetRender {
 	return &JetRender{
 		Set: set,
 	}
 }
 
-func (render *JetRender) Instance(name string, data interface{}) render.Render {
+func (render *JetRender) Instance(name string, data interface{}) *JetTemplate {
 	template, err := render.Set.GetTemplate(name)
 	if err != nil {
 		panic(err)
