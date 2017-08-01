@@ -1,5 +1,5 @@
-hash: eaeabba8bbae20409e3bd8cbc6cdc9984d71924f913bb9321769e462965d1ceb
-updated: 2017-08-02T04:44:55.422631329+08:00
+hash: 828d21dbfaa46b53bfef1cf137816ce647283b66256da1dbd422b8097a69dd24
+updated: 2017-08-02T04:59:21.586128153+08:00
 imports:
 - name: github.com/CloudyKit/fastprinter
   version: 74b38d55f37af5d6c05ca11147d616b613a3420e
@@ -7,4 +7,6 @@ imports:
   version: 93b0e830ecf4c3f6102e1a69c6ea3bafa37aee7c
 - name: github.com/fatih/structs
   version: a720dfa8df582c51dee1b36feabb906bde1588bd
+- name: github.com/gin-gonic/gin
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
 testImports: []

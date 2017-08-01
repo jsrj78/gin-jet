@@ -3,6 +3,7 @@ package jet
 import (
 	"github.com/CloudyKit/jet"
 	"github.com/fatih/structs"
+	"github.com/gin-gonic/gin/render"
 )
 
 type JetRender struct {
@@ -15,8 +16,8 @@ func NewJetRender(set *jet.Set) *JetRender {
 	}
 }
 
-func (render *JetRender) Instance(name string, data interface{}) *JetTemplate {
-	template, err := render.Set.GetTemplate(name)
+func (r *JetRender) Instance(name string, data interface{}) render.Render {
+	template, err := r.Set.GetTemplate(name)
 	if err != nil {
 		panic(err)
 	}
