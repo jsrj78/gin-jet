@@ -1,5 +1,5 @@
 hash: 828d21dbfaa46b53bfef1cf137816ce647283b66256da1dbd422b8097a69dd24
-updated: 2017-08-02T04:59:21.586128153+08:00
+updated: 2017-09-21T11:54:35.349276281+08:00
 imports:
 - name: github.com/CloudyKit/fastprinter
   version: 74b38d55f37af5d6c05ca11147d616b613a3420e
@@ -9,4 +9,12 @@ imports:
   version: a720dfa8df582c51dee1b36feabb906bde1588bd
 - name: github.com/gin-gonic/gin
   version: d459835d2b077e44f7c9b453505ee29881d5d12d
+  subpackages:
+  - render
+- name: github.com/ugorji/go
+  version: ded73eae5db7e7a0ef6f55aace87a2873c5d2b74
+  subpackages:
+  - codec
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
 testImports: []
