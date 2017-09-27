@@ -1,8 +1,9 @@
 package jet
 
 import (
-	"github.com/CloudyKit/jet"
 	"net/http"
+
+	"github.com/CloudyKit/jet"
 )
 
 type JetTemplate struct {
