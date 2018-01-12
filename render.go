@@ -1,4 +1,4 @@
-package jet
+package jet // import "code.ysitd.cloud/gin/jet"
 
 import (
 	"github.com/CloudyKit/jet"

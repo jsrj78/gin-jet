@@ -1,4 +1,4 @@
-package: github.com/ysitd-cloud/gin-jet
+package: code.ysitd.cloud/gin/jet
 import:
 - package: github.com/CloudyKit/jet
   version: ^2.1.1
